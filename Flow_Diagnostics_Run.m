@@ -13,7 +13,7 @@ close all;
 %% For 12, 14 and 14 bit images, they should be converted to 8 bit images
 %% befor optical flow computation
 
-Im1=imread('White_oval_1.tif');
+Im1=imread('White_Oval_1.tif');
 Im2=imread('White_Oval_2.tif');
 
 % Im1=imread('vortex_pair_particles_1.tif');
@@ -57,7 +57,7 @@ size_filter=4; % in pixels
 
 %% Selete a region for processing (index_region = 1) otherwise processing for the
 %% whole image (index_region = 0)
-index_region=1;
+index_region=0;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
